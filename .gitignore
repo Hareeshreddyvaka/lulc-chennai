@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints & Large Model Weights (>100MB blocked by GitHub)
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+checkpoints/
+models/
+
+# Large Datasets & Remote Sensing Arrays
+*.npy
+*.npz
+*.tif
+*.tiff
+*.geotiff
+*.h5
+*.hdf5
+*.zip
+*.tar
+*.tar.gz
+data/
+dataset/
+patches/
+lulc_chennai/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Output directories & Logs
+outputs/
+logs/
+wandb/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
